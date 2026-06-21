@@ -5,6 +5,7 @@ import { SizePlugin } from '@rschristian/size-plugin';
 import { getPackageManagerAndInstallScript, diffTable, toBool, stripHash, getSortOrder, setOutput } from './utils.js';
 
 export const __test = {}
+export const __test_foo = 123
 
 /**
  * @typedef {ReturnType<typeof import("@actions/github").getOctokit>} Octokit
