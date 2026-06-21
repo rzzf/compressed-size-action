@@ -4,6 +4,8 @@ import { exec } from '@actions/exec';
 import { SizePlugin } from '@rschristian/size-plugin';
 import { getPackageManagerAndInstallScript, diffTable, toBool, stripHash, getSortOrder, setOutput } from './utils.js';
 
+console.log('test')
+
 /**
  * @typedef {ReturnType<typeof import("@actions/github").getOctokit>} Octokit
  * @typedef {typeof import("@actions/github").context} ActionContext
