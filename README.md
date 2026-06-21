@@ -350,7 +350,7 @@ jobs:
       - name: Get PR number
         id: pr
         run: echo "pr=$(<pr-number)" >> "$GITHUB_OUTPUT"
-      - uses: marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0
+      - uses: marocchino/sticky-pull-request-comment@v3
         with:
           path: comment-body
           number_force: ${{ steps.pr.outputs.pr }}
